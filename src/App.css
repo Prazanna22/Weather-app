@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    font-family: "roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 179, 179);
+}
+.container{
+    background-color: rgb(253, 252, 252);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    margin: 3px 10px;
+    cursor: pointer;
+}
+.input{
+    display: flex;
+    border:2px solid rgb(0, 0, 0);
+    border-radius:20px;
+    padding: 3px;
+}
+.input input{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 0 10px;
+}
+.input input[placeholder]{
+
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.Icon{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.Icon img{
+    width: 150px;
+    height: 150px;
+}
+.temp{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+
+}
+.city{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(230, 216, 27);
+}
+.country{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.cord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.cord div {
+    display: flex;
+    flex-direction: column;
+}
+.cord div span{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cord div span:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+}
+.hum-wind{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.hum-wind div{
+    flex-direction: column;
+    
+}
+
+.humimg {
+    width: 40px;
+    height: 40px;
+}
+.element{
+    text-align: center;
+    padding: 10px;
+    
+}
+.element img{
+    margin-bottom: 3px;
+    
+}
+.humidity,.wind{
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.text{
+    font-size: 10px;
+    font-weight: 600;
+}
+.windimg {
+    width: 40px;
+    height: 40px;
+}
+.city-not-found,
+.loading-message,
+.error-message{
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: blueviolet;
+}
+
