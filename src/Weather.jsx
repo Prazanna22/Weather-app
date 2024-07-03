@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import propTypes from "prop-types";
-import searchicon from './assets/find.png';
+import searchicon from './assets/search1.png';
 import snow from './assets/snow.png';
 import wind from './assets/wind.png';
 import moon from './assets/moon.png';

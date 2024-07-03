@@ -67,6 +67,7 @@ body{
     margin-top: 15px;
     font-weight: 500;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
     color: rgb(121, 225, 30);
 }
 .country{
@@ -97,12 +98,15 @@ body{
 .cord div span:nth-child(2){
     font-size: 20px;
     font-weight: 600;
+    color: rgb(104, 104, 104);
 }
 .hum-wind{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-
+}
+.text{
+    text-transform: uppercase;
 }
 .hum-wind div{
     flex-direction: column;
@@ -145,3 +149,27 @@ body{
     color: blueviolet;
 }
 
+@media screen and (max-width:576px){
+    .container{
+        width: 300px;
+    }
+    .Icon img{
+        width: 100px;
+        height: 100px;
+    }
+    .city,.country,.temp{
+        font-size: 20px;
+    }
+    .cord div span:nth-child(2){
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .cord div span{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .humimg,.windimg {
+        width: 30px;
+        height: 30px;
+    }
+}
